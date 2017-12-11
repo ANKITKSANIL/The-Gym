@@ -1,0 +1,428 @@
+
+/*/////////////////////
+////// MAIN BODY //////
+/////////////////////*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+body{
+    background: #f0f0f0;
+    font-family: 'Lato' ,sans-serif;
+    font-weight: 400;
+    color: #333438;
+    margin: 0;
+    
+}
+
+h1 {
+   text-align : center;
+    font-size: 180%;
+    line-height: 120%;
+    padding: 5% 0;
+}
+
+h2 {
+    text-decoration: underline;
+    line-height: 280%;
+    padding-left: 2%;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight : 300;
+    font-size: 130%;
+    
+} 
+
+
+/*/////////////////////
+///// LINK SECT ///////
+/////////////////////*/
+
+header nav ul a:hover{
+    color: rgba(68, 166, 227, 0.91);
+    text-decoration: underline;
+}
+
+header nav ul a:active{
+     color: rgba(68, 166, 227, 0.91);
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+
+
+
+/*/////////////////////
+///// HEADER SECT /////
+/////////////////////*/
+
+
+
+
+header {
+    float: left;
+    width: 100%;
+    height: auto;
+    background-color: #1c1f40;
+    margin-bottom : 100px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 100;
+    
+}
+
+header img{
+    float: left;
+    width: 10%;
+    height: 10%;
+}
+
+header nav {
+    float: right;
+}
+
+header nav li {
+    float: left;
+    padding: 20px 20px 0 2px;
+    list-style: none;
+    
+    
+}
+
+header nav li a {
+    color: aliceblue;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 130%;
+    text-decoration: none;
+    
+}
+
+/*/////////////////////
+//// SHOWCASE SECT ////
+/////////////////////*/
+
+.showcase .blueberry ul{
+/*    height: 650px;*/
+}
+
+/*/////////////////////
+///// INTRO SECT //////
+/////////////////////*/
+
+.intro{
+   width: 100%;
+    height: 400px;
+  
+   
+}
+
+.intro .container{
+
+/*
+   width: 100%;
+   background-color: aqua;
+*/
+    
+}
+
+
+.intro .intro_icon {
+    font-size: 70px;
+    text-align: center;
+}
+
+.intro .container div{
+    float: left;
+    height: 370px;
+    width: 30%;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+/*/////////////////////
+///// SCHEDULES ///////
+/////////////////////*/
+
+.schedules {
+    height:450px;
+    width: 100%;
+    margin-bottom: 5px;
+   
+}
+
+.schedules article img {
+    float:left;
+    height: 300px;
+    width: 40%;
+    margin-left:20px;
+}
+
+.schedules aside{
+    float:right;
+    width:50%;
+    margin-left: 30px;
+}
+
+.schedules .heading{
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.schedules .heading h1 {
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.schedules aside h2{
+    text-decoration: none;
+}
+
+
+.schedules aside ul{
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+    width: 300px;
+    
+}
+/*
+
+.schedule aside ul li{
+   
+    font-size: 14px;
+}
+*/
+
+
+/*/////////////////////
+///// FREE ZONE ///////
+/////////////////////*/
+
+.free_zone{
+    
+  
+    float: left;
+    height: 500px;
+    width: 100%;
+     margin-bottom: 5px;
+    
+}
+
+.free_zone div{
+    float:left;
+    width: 30%;
+    height: 90%;
+    padding: 10px 10px 10px 20px;
+}
+
+.free_zone img {
+    height:300px;
+    width: 100%;
+}
+
+.free_zone p {
+    text-align: center;
+}
+.free_zone.section1{
+    float: right;
+}
+
+
+/*/////////////////////
+///// FOOTER SECT//////
+/////////////////////*/
+
+.footer_zone{
+   float: left;
+   height: 200px;
+   width: 100%;
+   background-color: black;
+   
+}
+
+.footer_zone div{
+    float: left;
+    width: 30%;
+    height: 170px;
+}
+
+.footer_zone .footer_address{
+    float: left ;
+    text-decoration: none ;
+    margin : 20px 30px 20px 20px ;
+    color: aliceblue;
+}
+
+.footer_zone .footer_social{
+    float: left ;
+    align-content: center;
+    color: aliceblue;    
+    text-align: center;
+        width: 350px;
+    height: 120px;
+    margin : 20px 30px 20px 20px ;
+}
+
+.footer_zone img{
+    float: right;
+    width: 200px;
+    height: 170px;
+  
+}
+
+.footer_zone .footer_copyright{
+    float: left;   
+    display: block;
+    
+    color: aliceblue;
+}
+
+.footer_zone .footer_copyright p{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.footer_zone .footer_social ul {
+    float: left;
+    list-style: none;
+}
+
+
+
+.footer_zone .footer_social h3{
+    text-align: center;
+    margin-bottom: 10px;
+    width: 206.594px;
+}
+
+.footer_zone .footer_social li {
+    float: right;
+    font-size: 70px;
+    padding : 0 10px;
+}
+
+
+
+
+/*
+
+.footer_zone .footer_copyright{
+    font-size: 10px;
+    text-align: left;
+    color: aliceblue;
+}
+*/
+
+
+/*/////////////////////
+///// MEDIA QUERY /////
+/////////////////////*/
+
+@media only screen and (max-width: 800px){
+    
+h1 {
+   text-align : center;
+    font-size: 100%;
+    line-height: 60%;
+    padding: 5% 0;
+}
+
+h2 {
+    text-decoration: underline;
+    line-height: 180%;
+    padding-left: 2%;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight : 300;
+    font-size: 100%;
+    
+} 
+
+    
+    
+    
+    .showcase .blueberry ul{
+      height: 50px;
+
+    
+}
+    
+    .schedule aside ul li{
+   
+    font-size: 10px;
+}
+
+.free_zone div {
+    
+      width: 25%;
+    height: 80%;
+    }
+    
+    
+    .footer_zone{
+   float: left;
+   height: 140px;
+   width: 100%;
+   background-color: black;
+   
+}
+    
+    .footer_zone div{
+    float: left;
+    width: 30%;
+    height: 100px;
+}
+    
+    .footer_zone .footer_social li {
+    float: right;
+    font-size: 40px;
+    padding : 0 8px;
+}
+
+    
+    .footer_zone img{
+    float: right;
+    width: 130px;
+    height: 100px;
+  
+}
+    
+    .footer_zone .footer_address{
+    float: left ;
+    text-decoration: none ;
+    margin : 10px 10px 10px 10px ;
+    color: aliceblue;
+}
+  .footer_zone .footer_social h3{
+    text-align: center;
+    margin-bottom: 10px;
+    width: 150px;
+}    
+    
+    .footer_zone .footer_social{
+    align-content: center;
+    text-align: center;
+    width: 220px;
+    height: 120px;
+    margin : 20px 30px 20px 20px ;
+}
+@media only screen and (min-width: 810px){
+    
+.showcase .blueberry ul{
+    height: 680px;
+}
+}
+
